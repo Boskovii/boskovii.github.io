@@ -2,96 +2,183 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Aleksandar Bošković
+    - name: Location
+      value: Atlanta, GA
+    - name: Email
+      value: aboskovic3@gatech.edu
+    - name: Phone
+      value: (339) 368-4217
+    - name: LinkedIn
+      value: linkedin.com/in/aboskovic3
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Bachelor of Science in Mechanical Engineering
+      institution: Georgia Institute of Technology, Atlanta, GA
+      year: Expected May 2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Overall GPA: 4.00 / 4.00
+        - Thesis: A Framework for Evaluating Physical Human–Robot Interface Design (expected Spring 2026)
+
+- title: Research Interests
+  type: list
+  contents:
+    - Human–Robot Interaction
+    - Wearable Robotics
+    - Haptics
+    - Surgical Robotics
+    - Medical Devices
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Process Development Intern
+      institution: Boston Scientific
+      year: May 2025 – Aug 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Improved fidelity and speed of a laser ablation system by developing an empirically driven marking file, reducing cycle time by 64% and saving 2300+ annual machine hours
+        - Conducted root-cause analysis on heat-affected zones using SEM; collaborated across teams to increase process robustness
+        - Measured sputtered-ceramic thickness via XRF in multiple orientations; ran statistical analysis (t-tests) in Minitab to identify orientation-dependent variability
+    - title: Campus Relations & Events Committees
+      institution: Undergraduate Research Ambassadors, Georgia Tech
+      year: Jan 2025 – Present
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Organized workshops with GT's Office of Undergraduate Education & Student Success to guide students through research opportunities, graduate school preparation, and fellowships
+        - Supported research programming by staffing fairs, coordinating lab tours, and advising students during weekly hours
+    - title: Lab Supervising Grader
+      institution: "ME2110: Creative Decisions and Design, Georgia Tech"
+      year: Aug 2024 – May 2025
       description:
+        - Supervised labs and coached students on design and construction of robotic systems
+        - Trained students in Arduino-based control and safe rapid-prototyping techniques (3D printing, laser cutting, etc.)
+    - title: Prototyping Instructor
+      institution: Flowers Invention Studio, Georgia Tech
+      year: Jun 2024 – Present
+      description:
+        - Trained students and faculty on safe and effective use of shop tools and rapid prototyping equipment
+        - Supported fabrication across woodworking, metalworking, 3D printing, electronics, and laser cutting
+    - title: Undergraduate Volunteer
+      institution: Georgia Tech Robotics Summer Institute
+      year: Jul 2024
+      description:
+        - Helped high school students build autonomous robots and program Arduino-based systems
+        - Moderated a panel advising participants on college admissions and STEM pathways
+    - title: Driver Controls Team Member
+      institution: HyTech Racing
+      year: Aug 2022 – Dec 2023
+      description:
+        - Evaluated ergonomic control designs to reduce user error
+        - Designed lightweight harness-mount spacers and custom brake-fluid reservoir fittings; machined components on lathe and drill press; produced engineering drawings
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Research Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: V6 Robotic Hip Exoskeleton
+      institution: Exoskeleton and Prosthetic Intelligent Controls Lab
+      year: Aug 2023 – Present
+      url: /projects/1_project/
+      description:
+        - Designed and manufactured a novel thigh interface with a passive 3-DOF planar mobility mechanism mitigating skin irritation caused by misalignment between hip joint and actuator axes
+        - Used SolidWorks FEA to improve structural design of thigh struts, reducing mass by over 35%
+        - Fabricated prototypes using SLS/SLA/FDM 3D printing and manufactured final components using wet-laminated and prepreg carbon-fiber layups
+        - Collected kinematic datasets from able-bodied and stroke-impaired participants using VICON across cyclic and non-cyclic locomotor tasks
+        - Built multimodal datasets (infrared markers, force plates, EMG, IMUs, insole pressure, gait mapping) and automated validation tools in MATLAB to flag gaps and errors
+        - Performed clinical evaluations of stroke participants using the Fugl-Meyer Assessment to correlate movement data with impairment severity
+        - Coordinated a team of undergraduate researchers, mentoring new members and supporting technical development
+    - title: Dynamic Simulation of Hip–Knee Joint Mechanics
+      institution: "ME3017: System Dynamics"
+      year: Jan 2025 – May 2025
+      url: /projects/3_project/
+      description:
+        - Developed a double-pendulum model of human hip and knee dynamics using torsional springs and dampers to represent ligament stiffness, muscle damping, and gravity
+        - Used anthropometric data to derive nonlinear differential equations and linearized them about equilibrium to analyze stability, frequency response, and transient behavior
+        - Simulated torques corresponding to martial-arts kicks, soccer strikes, and rehabilitative cycling; compared nonlinear and linear system performance using MATLAB
+    - title: Robotic Dynamometer
+      institution: Physiology of Wearable Robotics Lab
+      year: Aug 2024 – May 2025
+      url: /projects/2_project/
+      description:
+        - Identified and corrected structural issues in an open-source ankle work-loop platform to increase rigidity and isolate soleus activity
+        - Designed a custom motor-driven dynamometer in Fusion 360 to replace a weight stack, enabling variable-speed and complex loading tests
+        - Selected motor and gearbox components capable of exceeding human plantar-flexion torque via MATLAB torque-speed modeling
+        - Fabricated brackets and structural bars via waterjet and drill press; designed a reinforced motor mount for welding; machined steel hard-stop bars to prevent overextension
+    - title: Design and Control of an Autonomous Robot
+      institution: "ME2110: Creative Decisions and Design"
+      year: Jan 2024 – May 2024
+      url: /projects/4_project/
+      description:
+        - Programmed an autonomous robot in Arduino integrating IR/ultrasonic sensors with motors, solenoids, and pneumatic actuation
+        - Designed a low-profile scissor lift extending 4.5 ft from a 4-in collapsed height; machined a custom aluminum spool on a lathe
+        - Built a rapid-deploy mechanism using drawer slides and pneumatic actuation to clear obstacles
+
+- title: Presentations
+  type: time_table
+  contents:
+    - title: A Planar Mobility Mechanism for Secure and Comfortable Exoskeleton Thigh Interfaces
+      institution: Gulf Coast Undergraduate Research Symposium (GCURS), Rice University
+      year: October 2025
+      description:
+        - Oral Presentation
+        - Authors: Bošković, A., Mhaskar, Y., Young, A.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: Fall 2025
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Chair's Ambassadors in Leadership and Service Fellowship
+    - year: 2024-2025
       items:
-        - Max Planck Medal
+        - Faculty Honors (Spring 2025, Fall 2024)
+        - President's Undergraduate Research Award (Summer 2024)
+    - year: 2023-2024
+      items:
+        - Faculty Honors (Spring 2024, Fall 2023)
+    - year: 2022-2023
+      items:
+        - Faculty Honors (Spring 2023, Fall 2022)
 
-- title: Academic Interests
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - MATLAB
+        - Arduino
+        - Python
+        - Java
+    - title: Design
       items:
-        - Description 1.
-        - Description 2.
+        - SolidWorks
+        - 3DExperience CATIA
+        - Fusion 360
+        - FEA
+        - Engineering drawings
+    - title: Analysis
+      items:
+        - SEM
+        - VHX microscopy
+        - XRF
+        - Minitab
+    - title: Manufacturing
+      items:
+        - 3D printing (FDM/SLA/SLS)
+        - Carbon-fiber layup
+        - Laser cutting
+        - Metal lathe
+        - Waterjet
+        - Femtosecond laser ablation
 
-- title: Other Interests
+- title: Relevant Coursework
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Robotics
+    - Machine Design
+    - System Dynamics
+    - Statistics & Applications
+    - Data Structures & Algorithms
+    - Experimental Methods & Technical Writing
+    - Creative Decisions & Design
+    - Undergraduate Research & Proposal Writing

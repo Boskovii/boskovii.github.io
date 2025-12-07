@@ -23,10 +23,14 @@ module ExternalPosts
     end
 
     def fetch_from_rss(site, src)
-      xml = HTTParty.get(src['rss_url']).body
-      return if xml.nil?
-      feed = Feedjira.parse(xml)
-      process_entries(site, src, feed.entries)
+      begin
+        xml = HTTParty.get(src['rss_url'], verify: false).body
+        return if xml.nil?
+        feed = Feedjira.parse(xml)
+        process_entries(site, src, feed.entries)
+      rescue => e
+        puts "Warning: Failed to fetch external posts from #{src['name']}: #{e.message}"
+      end
     end
 
     def process_entries(site, src, entries)
@@ -87,7 +91,12 @@ module ExternalPosts
     end
 
     def fetch_content_from_url(url)
-      html = HTTParty.get(url).body
+      begin
+        html = HTTParty.get(url, verify: false).body
+      rescue => e
+        puts "Warning: Failed to fetch content from #{url}: #{e.message}"
+        return { title: '', content: '', summary: '' }
+      end
       parsed_html = Nokogiri::HTML(html)
 
       title = parsed_html.at('head title')&.text.strip || ''

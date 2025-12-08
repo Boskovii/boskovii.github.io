@@ -407,8 +407,8 @@ ninja.data = [{
           section: "News",},{id: "news-finished-process-development-internship-at-boston-scientific-delivering-final-presentation-on-optimization-of-a-robotic-laser-ablation-system",
           title: 'Finished Process Development Internship at Boston Scientific, delivering final presentation on optimization of...',
           description: "",
-          section: "News",},{id: "news-awarded-the-chair-s-ambassadors-in-leadership-and-service-fellowship-for-fall-2025",
-          title: 'Awarded the Chair’s Ambassadors in Leadership and Service Fellowship for Fall 2025.',
+          section: "News",},{id: "news-awarded-the-chair-s-ambassadors-in-leadership-and-service-fellowship-for-fall-2025-including-a-1000-award",
+          title: 'Awarded the Chair’s Ambassadors in Leadership and Service Fellowship for Fall 2025, including...',
           description: "",
           section: "News",},{id: "news-presented-a-planar-mobility-mechanism-for-secure-and-comfortable-exoskeleton-thigh-interfaces-at-the-gulf-coast-undergraduate-research-symposium-gcurs-at-rice-university-received-a-travel-award-to-attend",
           title: 'Presented “A Planar Mobility Mechanism for Secure and Comfortable Exoskeleton Thigh Interfaces” at...',
@@ -419,9 +419,9 @@ ninja.data = [{
           section: "News",},{id: "news-submitted-thesis-proposal-a-framework-for-evaluating-physical-human-robot-interface-design-to-georgia-tech-undergraduate-research-opportunities-program-gt-urop",
           title: 'Submitted thesis proposal “A Framework for Evaluating Physical Human–Robot Interface Design” to Georgia...',
           description: "",
-          section: "News",},{id: "projects-v6-robotic-hip-exoskeleton",
-          title: 'V6 Robotic Hip Exoskeleton',
-          description: "Novel thigh interface with passive 3-DOF planar mobility mechanism for stroke rehabilitation",
+          section: "News",},{id: "projects-robotic-hip-exoskeleton",
+          title: 'Robotic Hip Exoskeleton',
+          description: "Development of a hip exoskeleton system from conceptual design through prototyping and clinical testing",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-robotic-dynamometer",
@@ -430,7 +430,7 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-dynamic-simulation-of-hip-knee-joint-mechanics",
-          title: 'Dynamic Simulation of Hip–Knee Joint Mechanics',
+          title: 'Dynamic Simulation of Hip-Knee Joint Mechanics',
           description: "Double-pendulum model for analyzing human lower-limb dynamics and stability",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";

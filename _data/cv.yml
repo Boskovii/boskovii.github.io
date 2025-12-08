@@ -1,8 +1,8 @@
-- title: General Information
+- title: Basics
   type: map
   contents:
     - name: Full Name
-      value: Aleksandar Bošković
+      value: Aleksandar Blaine Bošković
     - name: Label
       value: Wearable Robotics Researcher
     - name: Location
@@ -12,30 +12,10 @@
     - name: Phone
       value: (339) 368-4217
 
-- title: Education
-  type: time_table
-  contents:
-    - title: Bachelor of Science in Mechanical Engineering
-      institution: Georgia Institute of Technology, Atlanta, GA
-      year: Expected May 2026
-      description:
-        - Overall GPA: 4.00 / 4.00
-        - Thesis: A Framework for Evaluating Physical Human–Robot Interface Design (expected Spring 2026)
-        - title: Relevant Coursework
-          contents:
-            - "ME 2110 (Creative Decisions & Design)"
-            - "ME 3017 (System Dynamics)"
-            - "ME 3180 (Machine Design)"
-            - "ME 3057 (Experimental Methods & Technical Writing)"
-            - "ME 4451 (Robotics)"
-            - "ISYE 3770 (Statistics & Applications)"
-            - "CS 1332 (Data Structures & Algorithms)"
-            - "ME 2699 (Undergraduate Research & Proposal Writing)"
-
 - title: Summary
   type: list
   contents:
-    - Undergraduate researcher in mechanical engineering with experience in wearable robotics, human–robot interfaces, biomechanical testing, and experimental motion analysis. Skilled in designing mechanisms, building multimodal sensing pipelines, and conducting human-subject evaluations. Interested in advancing robotic systems that align with human movement and enhance mobility.
+    - Undergraduate researcher in mechanical engineering with experience in wearable robotics, human-robot interfaces, biomechanical testing, and experimental motion analysis. Skilled in designing mechanisms, building multimodal sensing pipelines, and conducting human-subject evaluations. Interested in advancing robotic systems that augment human movement. Motivated by problems at the intersection of human biomechanics and robotic design.
 
 - title: Research Experience
   type: time_table
@@ -43,23 +23,25 @@
     - title: Undergraduate Researcher
       institution: Exoskeleton and Prosthetic Intelligent Controls Lab, Georgia Tech
       year: Aug 2023 – Present
+      url: /projects/1_project/
       description:
-        - Designed passive 3-DOF planar mobility mechanism for hip exoskeleton thigh interface
-        - Reduced strut mass by 35% using SolidWorks FEA while improving stiffness
+        - Designed a passive 3-DOF planar mobility mechanism for a hip exoskeleton thigh interface
+        - Reduced structural mass by 35% via SolidWorks FEA optimization
         - Built prototypes using SLS/SLA/FDM and carbon-fiber layups
-        - Collected multimodal locomotion datasets (VICON, EMG, IMUs, pressure insoles, force plates)
-        - Performed clinical assessments (Fugl-Meyer) with stroke participants
+        - Collected multimodal locomotion datasets (VICON, EMG, IMUs, insole pressure, force plates)
+        - Performed clinical assessments (Fugl-Meyer) with stroke-impaired participants
         - Mentored undergraduate researchers and coordinated team tasks
     - title: Undergraduate Researcher
       institution: Physiology of Wearable Robotics Lab, Georgia Tech
       year: Aug 2024 – May 2025
+      url: /projects/2_project/
       description:
-        - Developed motor-driven robotic dynamometer for plantar-flexion work loops
-        - Designed structural components in Fusion 360 and selected actuators via MATLAB modeling
-        - Fabricated aluminum and steel hardware with waterjet machining, welding, and turning
-        - Improved rigidity and measurement fidelity of existing open-source testbed
+        - Designed a motor-driven robotic dynamometer for plantar-flexion work-loop experiments
+        - Selected motors and gearboxes through torque-speed modeling in MATLAB
+        - Fabricated aluminum and steel components using manual milling and waterjet machining
+        - Improved rigidity and measurement fidelity of an open-source plantar-flexion dynamometer
 
-- title: Experience
+- title: Work Experience
   type: time_table
   contents:
     - title: Process Development Intern
@@ -69,18 +51,22 @@
         - Improved fidelity and speed of a laser ablation system by developing an empirically driven marking file, reducing cycle time by 64% and saving 2300+ annual machine hours
         - Conducted root-cause analysis on heat-affected zones using SEM; collaborated across teams to increase process robustness
         - Measured sputtered-ceramic thickness via XRF in multiple orientations; ran statistical analysis (t-tests) in Minitab to identify orientation-dependent variability
-    - title: Campus Relations & Events Committees
-      institution: Undergraduate Research Ambassadors, Georgia Tech
-      year: Jan 2025 – Present
-      description:
-        - Organized workshops with GT's Office of Undergraduate Education & Student Success to guide students through research opportunities, graduate school preparation, and fellowships
-        - Supported research programming by staffing fairs, coordinating lab tours, and advising students during weekly hours
     - title: Lab Supervising Grader
       institution: "ME2110: Creative Decisions and Design, Georgia Tech"
       year: Aug 2024 – May 2025
       description:
         - Supervised labs and coached students on design and construction of robotic systems
         - Trained students in Arduino-based control and safe rapid-prototyping techniques (3D printing, laser cutting, etc.)
+
+- title: Other Experience
+  type: time_table
+  contents:
+    - title: Campus Relations & Events Committees
+      institution: Undergraduate Research Ambassadors, Georgia Tech
+      year: Jan 2025 – Present
+      description:
+        - Organized workshops with GT's Office of Undergraduate Education & Student Success to guide students through research opportunities, graduate school preparation, and fellowships
+        - Supported research programming by staffing research fairs, coordinating lab tours, and advising students during weekly office hours
     - title: Prototyping Instructor
       institution: Flowers Invention Studio, Georgia Tech
       year: Jun 2024 – Present
@@ -100,7 +86,64 @@
         - Evaluated ergonomic control designs to reduce user error
         - Designed lightweight harness-mount spacers and custom brake-fluid reservoir fittings; machined components on lathe and drill press; produced engineering drawings
 
-- title: Research Projects
+- title: Education
+  type: time_table
+  contents:
+    - title: Bachelor of Science in Mechanical Engineering
+      institution: Georgia Institute of Technology, Atlanta, GA
+      year: Expected May 2026
+      description:
+        - "Overall GPA: 4.00 / 4.00"
+        - "Thesis: A Framework for Evaluating Physical Human–Robot Interface Design, expected Spring 2026"
+        - title: Relevant Coursework
+          contents:
+            - "ME 4451 (Robotics)"
+            - "ME 4452 (Control of Dynamic Systems)"
+            - "ME 3017 (System Dynamics)"
+            - "ISYE 3770 (Statistics & Applications)"
+            - "CS 1332 (Data Structures & Algorithms)"
+            - "ME 3057 (Experimental Methods & Technical Writing)"
+            - "LMC 4701 (Undergraduate Research & Proposal Writing)"
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: Fall 2025
+      items:
+        - Chair's Ambassadors in Leadership and Service Fellowship
+    - year: Summer 2024
+      items:
+        - President's Undergraduate Research Award
+    - year: Fall 2022 – Spring 2025
+      items:
+        - Faculty Honors
+
+- title: Presentations
+  type: time_table
+  contents:
+    - title: A Planar Mobility Mechanism for Secure and Comfortable Exoskeleton Thigh Interfaces
+      institution: Gulf Coast Undergraduate Research Symposium (GCURS), Rice University
+      year: October 2025
+      description:
+        - Oral Presentation
+        - "Authors: Bošković, A., Mhaskar, Y., Young, A."
+
+- title: Skills
+  type: list
+  contents:
+    - "Programming: MATLAB, Arduino, Python, Java"
+    - "Design: SolidWorks, 3DExperience CATIA, Fusion 360, FEA, Engineering drawings"
+    - "Analysis: SEM, VHX microscopy, XRF, Minitab"
+    - "Manufacturing: 3D printing (FDM/SLA/SLS), Carbon-fiber layup, Laser cutting, Metal lathe, Waterjet, Femtosecond laser ablation"
+
+- title: Languages
+  type: list
+  contents:
+    - English (Native Speaker)
+    - Serbian (Native Speaker)
+    - German (Intermediate)
+
+- title: Projects
   type: time_table
   contents:
     - title: Dynamic Simulation of Hip–Knee Joint Mechanics
@@ -119,67 +162,3 @@
         - Programmed an autonomous robot in Arduino integrating IR/ultrasonic sensors with motors, solenoids, and pneumatic actuation
         - Designed a low-profile scissor lift extending 4.5 ft from a 4-in collapsed height; machined a custom aluminum spool on a lathe
         - Built a rapid-deploy mechanism using drawer slides and pneumatic actuation to clear obstacles
-
-- title: Presentations
-  type: time_table
-  contents:
-    - title: A Planar Mobility Mechanism for Secure and Comfortable Exoskeleton Thigh Interfaces
-      institution: Gulf Coast Undergraduate Research Symposium (GCURS), Rice University
-      year: October 2025
-      description:
-        - Oral Presentation
-        - Authors: Bošković, A., Mhaskar, Y., Young, A.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: Fall 2025
-      items:
-        - Chair's Ambassadors in Leadership and Service Fellowship
-    - year: 2024-2025
-      items:
-        - Faculty Honors (Spring 2025, Fall 2024)
-        - President's Undergraduate Research Award (Summer 2024)
-    - year: 2023-2024
-      items:
-        - Faculty Honors (Spring 2024, Fall 2023)
-    - year: 2022-2023
-      items:
-        - Faculty Honors (Spring 2023, Fall 2022)
-
-- title: Skills
-  type: nested_list
-  contents:
-    - title: Programming
-      items:
-        - MATLAB
-        - Arduino
-        - Python
-        - Java
-    - title: Design
-      items:
-        - SolidWorks
-        - 3DExperience CATIA
-        - Fusion 360
-        - FEA
-        - Engineering drawings
-    - title: Analysis
-      items:
-        - SEM
-        - VHX microscopy
-        - XRF
-        - Minitab
-    - title: Manufacturing
-      items:
-        - 3D printing (FDM/SLA/SLS)
-        - Carbon-fiber layup
-        - Laser cutting
-        - Metal lathe
-        - Waterjet
-        - Femtosecond laser ablation
-
-- title: Languages
-  type: list
-  contents:
-    - Serbian (Native Speaker)
-    - German (Intermediate)

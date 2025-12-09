@@ -9,7 +9,7 @@ category: research
 
 
 **Exoskeleton and Prosthetic Intelligent Controls Lab**  
-*PI: Prof. Aaron Young* | Aug 2023 – Present
+*Principal Investigator: Prof. Aaron Young* | Aug 2023 – Present
 
 My team is developing a hip exoskeleton that serves as a research platform for evaluating biological torque estimation and [on-body sensing]({{ '/publications/' | relative_url }}) as a control strategy for post-stroke mobility restoration. The system is designed to enable studies on how real-time torque estimates derived from wearable IMUs can synchronize assistance with a user's intent without relying on less accurate on-device sensors.
 

@@ -421,7 +421,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-robotic-hip-exoskeleton",
           title: 'Robotic Hip Exoskeleton',
-          description: "Development of a hip exoskeleton from conceptual design through prototyping and clinical testing",
+          description: "Development of a hip exoskeleton from conceptual design through prototyping and clinical testing.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-robotic-dynamometer",

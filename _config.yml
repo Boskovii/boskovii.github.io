@@ -189,8 +189,7 @@ exclude:
   - readme_preview/
   - vendor
   - assets/jupyter/blog.ipynb
-  - assets/video/
-  - assets/video/tutorial_al_folio.mp4
+  - assets/video/tutorial_al_folio.mp4.bak
 keep_files:
   - CNAME
   - .nojekyll

@@ -7,7 +7,7 @@ importance: 2
 category: research
 ---
 
-**Physiology of Wearable Robotics Lab** | Aug 2024 – May 2025
+**Physiology of Wearable Robotics Lab (PI: Dr. Gregory Sawicki)** | Aug 2024 – May 2025
 
 I designed and built a custom robotic dynamometer to replace traditional weight-stack systems, enabling variable-speed and complex loading tests for human ankle work-loop analysis. This system provides unprecedented control and measurement capabilities for studying human biomechanics.
 

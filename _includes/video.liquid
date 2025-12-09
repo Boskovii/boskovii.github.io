@@ -1,7 +1,7 @@
 {% assign extension = include.path | split: '.' | last %}
 
 <figure>
-  {% if extension == 'mp4' or extension == 'webm' or extension == 'ogg' %}
+  {% if extension == 'mp4' or extension == 'webm' or extension == 'ogg' or extension == 'mov' %}
     <video
       src="{% if include.cache_bust %}{{ include.path | relative_url | bust_file_cache }}{% else %}{{ include.path | relative_url }}{% endif %}"
       {% if include.class %}
@@ -47,8 +47,16 @@
       {% if include.muted %}
         muted
       {% endif %}
+      {% if include.playsinline %}
+        playsinline
+      {% endif %}
       {% if include.poster %}
         poster="{{ include.poster }}"
+      {% endif %}
+      {% if include.preload %}
+        preload="{{ include.preload }}"
+      {% else %}
+        preload="auto"
       {% endif %}
     />
 
@@ -61,6 +69,7 @@
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen
+      loading="lazy"
       {% if include.width %}
         width="{{ include.width }}"
       {% else %}

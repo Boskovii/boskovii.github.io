@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented "A Planar Mobility Mechanism for Secure and Comfortable Exoskeleton Thigh Interfaces" at the Gulf Coast Undergraduate Research Symposium (GCURS) at Rice University. Received a travel award to attend.
+Presented "A Planar Mobility Mechanism for Secure and Comfortable Exoskeleton Thigh Interfaces" at Gulf Coast Undergraduate Research Symposium (GCURS), Rice University; received travel award

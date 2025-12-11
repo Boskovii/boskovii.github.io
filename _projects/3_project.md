@@ -241,7 +241,7 @@ The linear model accurately predicted behavior only for small perturbations. For
     </div>
 </div>
 
-To analyze transient response to small perturbations, I applied a Dirac delta (impulse) function rather than a step input, as muscles generate force through rapid contractions rather than sustained constant torques. An impulse of 15 Nm over 0.01 seconds it thus more physiologically realistic. The system exhibited small-magnitude oscillations (peak displacement < 0.17°) with surprisingly long settling times of approximately 20 seconds, consistent with the slightly underdamped behavior expected from our damping ratios.
+To analyze transient response to small perturbations, I applied a Dirac delta (impulse) function rather than a step input, as muscles generate force through rapid contractions rather than sustained constant torques. An impulse of 15 Nm over 0.01 seconds is thus more physiologically realistic. The system exhibited small-magnitude oscillations (peak displacement < 0.17°) with surprisingly long settling times of approximately 20 seconds, consistent with the slightly underdamped behavior expected from our damping ratios.
 
 <div class="row">
     <div class="col-sm-12 mt-3 mt-md-0" style="max-width: 800px; margin: 0 auto;">

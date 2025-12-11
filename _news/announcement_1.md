@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Submitted paper "Ergonomic Robotic Hip Exoskeleton Design with Integrated Second-Skin On-Body Sensing" to IEEE Robotics and Automation Letters.
+Submitted paper "Ergonomic Robotic Hip Exoskeleton Design with Integrated Second-Skin On-Body Sensing" to IEEE Robotics and Automation Letters

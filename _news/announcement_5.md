@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Finished Process Development Internship at Boston Scientific, delivering final presentation on optimization of a robotic laser ablation system.
+Completed Process Development Internship at Boston Scientific, delivering final presentation on optimization of robotic laser ablation system

@@ -10,12 +10,12 @@ category: research
 **Independent Research**  
 *Faculty Advisor: Prof. Aaron Young*  | *Second Reader: Prof. Gregory Sawicki*  | Aug 2025 – Present
 
-**Thesis:** *A Framework for Evaluating Physical Human-Robot Interface Design*  
-<a href="/assets/pdf/Fall2025_BoskovicA_Proposal.pdf" target="_blank" rel="noopener noreferrer">Proposed Dec 2025</a> | Expected completion May 2026
+**Undergraduate Thesis:** *A Framework for Evaluating Physical Human-Robot Interface Design*  
+<a href="/assets/pdf/Fall2025_BoskovicA_Proposal.pdf" target="_blank" rel="noopener noreferrer">Proposal Submitted Dec 2025</a> | Expected completion May 2026
 
 Working simultaneously on the exoskeleton and dynamometer projects revealed that, despite differences in control architecture and function, these systems share common design challenges at their physical interfaces. I am currently developing an undergraduate thesis that formalizes this observation into a framework for evaluating physical human-robot interfaces in prolonged-contact applications.
 
-The framework integrates subjective and objective metrics to provide a standardized method that researchers can use to compare designs across different robotic systems while avoiding common mistakes. This work addresses a critical gap in the literature: while individual interface designs are often evaluated in isolation, there is no unified framework that enables systematic comparison and optimization across diverse robotic platforms.
+The framework will integrate subjective and objective metrics to provide a standardized method that researchers can use to compare designs across different robotic systems while avoiding common mistakes. This work will address a critical gap in the literature: while individual interface designs are often evaluated in isolation, there is no unified framework that enables systematic comparison and optimization across diverse robotic platforms.
 
 <br>
 
@@ -31,7 +31,7 @@ This research involves: (1) conducting a structured literature review to identif
 
 ## Significance
 
-The adoption of a standardized framework for evaluating physical human-robot interfaces will advance the medical robotics field by enabling researchers to compare interface designs across domains and avoid design mistakes already recognized in other systems. For users, standardized interface evaluation will ensure that designs prioritize safety, comfort, and usability from the earliest stages of development. More broadly, this work addresses a critical barrier to translating medical robots from academic prototypes into real-world systems by building users' trust and confidence in these devices.
+The adoption of a standardized framework for evaluating physical human-robot interfaces will advance the medical robotics field by enabling researchers to compare interface designs across domains and avoid design mistakes already recognized in other systems. For users, standardized interface evaluation will ensure that designs are developed to prioritize safety, comfort, and usability. More broadly, this work addresses a critical barrier to translating medical robots from academic prototypes into real-world systems accepted by society at scale by building users' trust and confidence in these devices.
 
 My complete thesis proposal is available <a href="/assets/pdf/Fall2025_BoskovicA_Proposal.pdf" target="_blank" rel="noopener noreferrer">here</a>.
 

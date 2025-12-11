@@ -10,7 +10,7 @@ category: research
 **Physiology of Wearable Robotics Lab**  
 *Principal Investigator: Prof. Gregory Sawicki* | Aug 2024 – May 2025
 
-I designed and built a robotic dynamometer as part of a larger open-source ergometer platform used to study human muscle–tendon dynamics. The full system includes a high-precision rotary torque transducer, multi-axis load cells, shear sensing, and interfaces for EMG, ultrasound, and tendon tensiometers. My motor-driven actuation subsystem replaced an open-source weight-stack system with a platform capable of variable-speed and complex loading profiles. The primary goal was to create a system that could **accurately measure isokinetic human plantar-flexion torque** while supporting physiologically meaningful test conditions.
+I designed and built a robotic dynamometer used to study human muscle–tendon dynamics. The full system includes a high-precision rotary torque transducer, multi-axis load cells, shear sensing, and interfaces for EMG, ultrasound, and tendon tensiometers. My motor-driven actuation subsystem replaced an open-source weight-stack system with a platform capable of variable-speed and complex loading profiles. The primary goal was to create a system that could **accurately measure isokinetic human plantar-flexion torque** while supporting physiologically meaningful test conditions.
 
 My contributions spanned **diagnosing mechanical limitations in existing platforms**, **designing a new motor-driven dynamometer**, **selecting components through torque-speed modeling**, and **fabricating a structurally rigid, high-force prototype** suitable for human testing.
 

@@ -44,7 +44,7 @@ _styles: |
 **ME3017: System Dynamics**  
 *Instructor: Prof. Shreyas Kousik* | Jan 2025 – May 2025
 
-I developed a nonlinear dynamic model of the coupled hip–knee system to analyze how joint torques produce realistic sagittal-plane leg motion. The project involved deriving the governing equations for a double pendulum with torsional springs and dampers, parameterizing the model using anthropometric data, linearizing the system around equilibrium, and comparing nonlinear vs. linear predictions for real movement tasks.
+I developed a nonlinear dynamic model of the coupled hip-knee-ankle system to analyze how applied joint torques produce leg motion in the sagittal plane. The project involved deriving the governing equations for a double pendulum with torsional springs and dampers, parameterizing the model using anthropometric data, linearizing the system around equilibrium, and comparing nonlinear vs. linear predictions for real movement tasks.
 
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0" style="max-width: 650px; margin: 0 auto;">
@@ -58,16 +58,14 @@ I developed a nonlinear dynamic model of the coupled hip–knee system to analyz
 
 ## Model Formulation
 
-Using anthropometric parameters approximated from literature values, I modeled the thigh and shank as uniform cylinders and computed their masses, lengths, and moments of inertia. Passive joint stiffness was represented using torsional springs, and synovial/muscular damping was modeled via viscous dampers. These elements were assembled into the nonlinear dynamic equations governing hip and knee motion.
+Using anthropometric parameters approximated from literature values, I modeled the thigh and shank as uniform cylinders and computed their masses, lengths, and moments of inertia. Passive joint stiffness was represented using torsional springs, and synovial/muscular damping was modeled via torsional dampers. These elements were assembled into nonlinear dynamic equations governing hip and knee motion.
 
 Key modeling components included:
 
 - Nonlinear gravitational torques using $\sin(\theta)$ and $\cos(\theta)$  
 - Torsional spring-damper elements at both joints  
-- Joint-angle constraints to prevent non-physical hyperextension  
+- Joint-angle constraints to prevent hyperextension  
 - Forward-kinematics calculation of foot position  
-
-This provided a complete model capable of generating realistic joint trajectories and segment motion.
 
 The differential equation of motion for the thigh is given by Equation 1.
 
@@ -97,7 +95,7 @@ For each scenario, I simulated:
 - Segment trajectories for thigh, shank, and foot  
 - Sensitivity of motion to torque scaling and timing  
 
-These simulations demonstrated characteristic nonlinear coupling between joints and showed that joint motion is highly sensitive to torque profiles, damping ratios, and initial conditions.
+This project revealed the challenges of modeling biological systems with chaotic behavior, as the double-pendulum formulation occasionally produced unrealistic motion patterns. The resulting joint motion was highly sensitive to torque profiles, damping ratios, and initial conditions. 
 
 ### Karate Front Kick
 
@@ -221,7 +219,7 @@ The linearized system is stable, as all eigenvalues have negative real parts. Th
     </div>
 </div>
 
-The linear model accurately predicted behavior only for small perturbations. For large angular displacements, such as cycling or kicking, the nonlinear model diverged significantly, illustrating the limits of linear approximations in human motion.
+The linear model accurately predicted behavior only for small perturbations. For large angular displacements, such as cycling or kicking, the nonlinear model diverged significantly, illustrating the limits of using linear approximations when modeling human motion.
 
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0 plot-container">
@@ -239,6 +237,18 @@ The linear model accurately predicted behavior only for small perturbations. For
     <div class="col-sm-6 mt-3 mt-md-0 plot-container" style="max-width: 500px; margin: 0 auto;">
         {% include figure.liquid loading="eager" path="assets/img/cycle_linearization.png" 
            caption="Stationary cycling" 
+           class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+To analyze transient response to small perturbations, I applied a Dirac delta (impulse) function rather than a step input, as muscles generate force through rapid contractions rather than sustained constant torques. An impulse of 15 Nm over 0.01 s it thus more physiologically realistic.
+
+The system exhibited small-magnitude oscillations (peak displacement < 0.17°) with surprisingly long settling times of approximately 20 seconds, consistent with the slightly underdamped behavior expected from our damping ratios.
+
+<div class="row">
+    <div class="col-sm-12 mt-3 mt-md-0" style="max-width: 800px; margin: 0 auto;">
+        {% include figure.liquid loading="eager" path="assets/img/transient.png" 
+           caption="Transient response of the linearized system to an impulse input of 15 Nm over 0.01 s." 
            class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

@@ -25,7 +25,7 @@ My contributions span the mechanical design and biomechanical analysis tasks req
 
 ## Hardware Development
 
-I designed and prototyped several core hardware subsystems of the exoskeleton, including the thigh struts, actuator mounts, and a novel mechanism at the thigh interface. Using SolidWorks FEA, I optimized the strut structures to reduce mass by more than 35% while maintaining stiffness above safety margins. I also incorporated a modular thigh strut design with several sizes to ensure the exoskeleton fits users from the 1st to the 99th percentile, thereby accommodating stroke survivors who often experience weight changes due to immobility.
+I designed and prototyped several core hardware subsystems of the exoskeleton, including the thigh struts, actuator mounts, and a novel mechanism at the thigh interface (see next section). Using SolidWorks FEA, I optimized the strut structures to reduce mass by more than 35% while maintaining stiffness above safety margins. I also incorporated a modular thigh strut design with several sizes to ensure the exoskeleton fits users from the 1st to the 99th percentile, thereby accommodating stroke survivors who often experience weight changes due to immobility.
 
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0" style="max-width: 600px; margin: 0 auto;">
@@ -37,7 +37,7 @@ I designed and prototyped several core hardware subsystems of the exoskeleton, i
 
 One of my first major responsibilities in the EPIC Lab was to redesign the exoskeleton's thigh interface. Instead of directly iterating on the existing hardware, I began by interviewing former users to understand the root cause of the recurring discomfort and skin irritation they experienced at the rigid thigh strut. These conversations made it clear that the primary issue was misalignment between the biological hip joint and the exoskeleton’s actuator axis, which caused repeated separation, rubbing, and skin irritation during use.
 
-A review of prior work showed that soft, compliant interfaces can mitigate misalignment but cannot transmit the high torques required for post-stroke hip assistance. To bridge this gap, I explored a hybrid approach and developed a **passive 3-degree-of-freedom planar mobility mechanism** that allows controlled motion within the thigh plane while maintaining rigid torque transmission. The design permits rotation and translation during gait, with elastic elements providing restoring forces that return the thigh strut to a neutral position after each cycle.
+A review of prior work showed that soft, compliant interfaces can mitigate misalignment but cannot transmit the high torques required for post-stroke hip joint assistance. To bridge this gap, I explored a hybrid approach and developed a **passive 3-degree-of-freedom planar mobility mechanism** that allows controlled motion within the thigh plane while maintaining rigid torque transmission. The design permits rotation and translation during gait, with elastic elements providing restoring forces that return the thigh strut to a neutral position after each cycle.
 
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0" style="max-width: 600px; margin: 0 auto;">
@@ -77,7 +77,7 @@ I fabricated functional prototypes using **SLS, SLA, and FDM additive manufactur
 
 ## Multimodal Human-Subject Testing & Clinical Evaluation
 
-I conducted locomotion experiments using a comprehensive sensor suite including **VICON motion capture, force plates, EMG, IMUs, and insole pressure sensors** to build datasets for training biological torque estimation algorithms. To handle the complexity of these multimodal datasets, I developed automated MATLAB tools for data validation and preprocessing. I supported experimental setups for both able-bodied participants and stroke-impaired individuals, working to ensure consistent data collection across diverse gait patterns and impairment levels. I also assisted with clinical evaluations of stroke participants using the **Fugl-Meyer Assessment** and used assessment outcomes to contextualize gait mechanics across different impairment levels.
+I conducted locomotion experiments using a comprehensive sensor suite including **VICON motion capture, force plates, EMG, IMUs, and insole pressure sensors** to build datasets for training biological torque estimation algorithms. To handle the complexity of these multimodal datasets, I developed automated MATLAB tools for data validation and preprocessing. I supported experimental setups for both able-bodied participants and stroke-impaired individuals, working to ensure consistent data collection across diverse gait patterns and impairment levels. I also conducted clinical evaluations of stroke participants using the **Fugl-Meyer Assessment** and used assessment outcomes to contextualize gait mechanics across different impairment levels.
 
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0" style="max-width: 600px; margin: 0 auto;">

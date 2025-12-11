@@ -7,6 +7,14 @@ layout: default
     {{ page._styles }}
   </style>
 {% endif %}
+<style type="text/css">
+  .project-nav-link {
+    transition: opacity 0.2s ease;
+  }
+  .project-nav-link:hover {
+    opacity: 0.7;
+  }
+</style>
 
 <div class="post">
   <header class="post-header">
@@ -27,5 +35,62 @@ layout: default
 
   {% if site.giscus and page.giscus_comments %}
     {% include giscus.liquid %}
+  {% endif %}
+
+  {% comment %} Project navigation arrows {% endcomment %}
+  {% assign is_project = false %}
+  {% assign is_displayed_project = false %}
+  {% for project in site.projects %}
+    {% if project.url == page.url %}
+      {% assign is_project = true %}
+      {% if project.category == "research" or project.category == "course projects" %}
+        {% assign is_displayed_project = true %}
+      {% endif %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+
+  {% if is_displayed_project %}
+    {% comment %} Filter to only projects displayed on projects page (research and course projects) {% endcomment %}
+    {% assign all_projects = site.projects | sort: "importance" %}
+    {% assign prev_project = nil %}
+    {% assign next_project = nil %}
+    {% assign last_displayed_project = nil %}
+    {% assign found_current = false %}
+    
+    {% for project in all_projects %}
+      {% if project.category == "research" or project.category == "course projects" %}
+        {% if found_current %}
+          {% assign next_project = project %}
+          {% break %}
+        {% endif %}
+        {% if project.url == page.url %}
+          {% assign prev_project = last_displayed_project %}
+          {% assign found_current = true %}
+        {% else %}
+          {% assign last_displayed_project = project %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    <div class="project-navigation" style="display: flex; justify-content: space-between; align-items: center; margin-top: 3rem; padding-top: 2rem; border-top: 1px solid rgba(255, 255, 255, 0.1);">
+      {% if prev_project %}
+        <a href="{{ prev_project.url | relative_url }}" class="project-nav-link" style="display: flex; align-items: center; text-decoration: none; color: inherit;">
+          <i class="fa-solid fa-arrow-left" style="margin-right: 0.5rem;"></i>
+          <span>Previous Project</span>
+        </a>
+      {% else %}
+        <div></div>
+      {% endif %}
+      
+      {% if next_project %}
+        <a href="{{ next_project.url | relative_url }}" class="project-nav-link" style="display: flex; align-items: center; text-decoration: none; color: inherit;">
+          <span>Next Project</span>
+          <i class="fa-solid fa-arrow-right" style="margin-left: 0.5rem;"></i>
+        </a>
+      {% else %}
+        <div></div>
+      {% endif %}
+    </div>
   {% endif %}
 </div>

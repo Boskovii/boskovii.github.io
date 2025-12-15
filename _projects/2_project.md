@@ -2,7 +2,7 @@
 layout: page
 title: Robotic Dynamometer
 description: Custom motor-driven dynamometer for measuring dynamic human work loop and force control
-img: assets/img/dynamometer_side.png
+img: assets/img/dyno_side.png
 importance: 2
 category: research
 ---
@@ -16,14 +16,13 @@ My contributions spanned **diagnosing mechanical limitations in existing platfor
 
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0" style="max-width: 600px; margin: 0 auto;">
-        {% include figure.liquid loading="eager" path="assets/img/Dynamometer_Iso.png" caption="Motor-driven robotic dynamometer designed for ankle work-loop experiments." class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/dyno_iso.png" caption="Motor-driven robotic dynamometer designed for ankle work loop experiments." class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 ---
 
 ## Improving Open-Source Force Plate Design
-System Identification & Platform Correction
 
 My first role in the lab involved evaluating the design of an open-source ankle work-loop platform. Structural flexion in the force plate was corrupting sensor readings, thus preventing isolation of soleus muscle activity. Through inspection and testing, I identified the exact weak points responsible for the deformation and redesigned the structural components to increase rigidity and improve measurement fidelity. These corrections created a stable baseline for collecting accurate biomechanical signals across the platform’s multimodal sensing suite.
 
@@ -33,13 +32,13 @@ My first role in the lab involved evaluating the design of an open-source ankle 
     </div>
 </div>
 
-## Mechanical Design of the Motor-Driven Dynamometer
+## Mechanical Design of Motor-Driven Dynamometer
 
-To support isokinetic and variable-speed loading, I designed a new motor-driven dynamometer in Fusion 360 to replace the weight stack entirely. The system integrates a high-torque motor and gearbox that can apply controlled rotational loads at the ankle joint across a wide range of velocities. This mechanical redesign enables dynamic loading patterns that better reflect real-world conditions and expands the types of work-loop experiments the ergometry platform can perform.
+To support isokinetic and variable-speed loading, I designed a new motor-driven dynamometer in Fusion 360 to replace the weight stack entirely. The system integrates a high-torque motor and gearbox that can apply controlled rotational loads at the ankle joint across a wide range of velocities. This mechanical redesign enables dynamic loading patterns that better reflect real-world conditions and expands the types of work loop experiments the ergometry platform can perform.
 
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0" style="max-width: 600px; margin: 0 auto;">
-        {% include figure.liquid loading="eager" path="assets/img/dynamometer_side_page.png" caption="Motor-driven dynamometer with reinforced frame and custom motor mount." class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/dyno_side_page.png" caption="Motor-driven dynamometer with reinforced frame and custom motor mount." class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -63,7 +62,7 @@ By comparing modeled system response to biomechanical datasets, I verified that 
 
 ## Fabrication & Safety Features
 
-I fabricated aluminum brackets and structural bars using waterjet cutting, a chop saw, and a drill press. I designed a reinforced steel motor mount for welding to minimize frame deformation under high loads. I also machined steel hard-stop bars to prevent ankle overextension and ensure safe operation during high-force testing. These fabrication steps were critical for creating a rigid, high-fidelity measurement system capable of safely delivering and withstanding large torques.
+I fabricated aluminum brackets and structural bars using waterjet cutting, a chop saw, and a drill press. I designed a reinforced steel motor mount for assembly via welding to minimize frame deformation under high loads. I also machined steel hard-stop bars to prevent ankle overextension and ensure safe operation during high-force testing. These fabrication steps were critical for creating a rigid, high-fidelity measurement system capable of safely delivering and withstanding large torques.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

@@ -278,6 +278,28 @@ let determineComputedTheme = () => {
 };
 
 let initTheme = () => {
-  // Force dark mode always
-  setThemeSetting("dark");
+  let themeSetting = determineThemeSetting();
+  // Ensure "system" is the default if no preference is stored
+  if (!themeSetting || (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system")) {
+    themeSetting = "system";
+  }
+  setThemeSetting(themeSetting);
+
+  // Add event listener to the theme toggle button.
+  document.addEventListener("DOMContentLoaded", function () {
+    const mode_toggle = document.getElementById("light-toggle");
+
+    if (mode_toggle) {
+      mode_toggle.addEventListener("click", function () {
+        toggleThemeSetting();
+      });
+    }
+  });
+
+  // Add event listener to the system theme preference change.
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", ({ matches }) => {
+    if (determineThemeSetting() == "system") {
+      applyTheme();
+    }
+  });
 };

@@ -38,12 +38,12 @@ layout: default
       </div>
     {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+    <div class="clearfix about-bio">{{ content }}</div>
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        news
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
@@ -63,6 +63,23 @@ layout: default
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
+
+    <!-- Outside the lab -->
+    <h2>outside the lab</h2>
+    <div class="outside-lab about-bio">
+      {% capture outside_text %}{% include outside_the_lab.md %}{% endcapture %}
+      {{ outside_text | markdownify }}
+      <div class="outside-photos">
+        <figure>
+          <img src="{{ '/assets/img/personal/pct_film.jpg' | relative_url }}" alt="Hiking the Pacific Crest Trail in Southern California" loading="lazy">
+          <figcaption>On the Pacific Crest Trail, somewhere in Southern California</figcaption>
+        </figure>
+        <figure>
+          <img src="{{ '/assets/img/personal/whitney_summit.jpg' | relative_url }}" alt="View from the summit of Mt. Whitney" loading="lazy">
+          <figcaption>View from the summit of Mt. Whitney</figcaption>
+        </figure>
+      </div>
+    </div>
 
     <!-- Social -->
     {% if page.social %}

@@ -9,11 +9,11 @@ category: research
 
 
 **Exoskeleton and Prosthetic Intelligent Controls Lab**  
-*Principal Investigator: Prof. Aaron Young* | Aug 2023 – Present
+*Principal Investigator: Prof. Aaron Young* | Aug 2023 - May 2026
 
-My team is developing a hip exoskeleton that serves as a research platform for evaluating biological torque estimation and [on-body sensing]({{ '/publications/' | relative_url }}) as a control strategy for post-stroke mobility restoration. The system is designed to enable studies on how real-time torque estimates derived from wearable IMUs can synchronize assistance with a user's intent without relying on less accurate on-device sensors.
+My team developed a hip exoskeleton to serve as a research platform for evaluating biological torque estimation and on-body sensing as a control strategy for post-stroke walking. The system was designed to enable studies on how real-time torque estimates derived from wearable IMUs can synchronize assistance with a user's intent without relying on less accurate on-device sensors.
 
-My contributions span the mechanical design and biomechanical analysis tasks required to support this goal: designing and analyzing structural components, fabricating lightweight composite hardware, and conducting multimodal locomotion experiments with both able-bodied and stroke-impaired participants.
+My contributions spanned the mechanical design and biomechanical analysis tasks required to support this goal: designing and analyzing structural components, fabricating lightweight composite hardware, and conducting multimodal locomotion experiments with both able-bodied and stroke-impaired participants.
 
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0" style="max-width: 600px; margin: 0 auto;">
@@ -25,7 +25,7 @@ My contributions span the mechanical design and biomechanical analysis tasks req
 
 ## Hardware Development
 
-I designed and prototyped several core hardware subsystems of the exoskeleton, including the thigh struts, actuator mounts, and a novel mechanism at the thigh interface (see next section). Using SolidWorks FEA, I optimized the strut structures to reduce mass by more than 35% while maintaining stiffness above safety margins. I also incorporated a modular thigh strut design with several sizes to ensure the exoskeleton fits users from the 1st to the 99th percentile, thereby accommodating stroke survivors who often experience weight changes due to immobility.
+I designed and prototyped several core hardware subsystems of the exoskeleton, including the thigh struts, actuator mounts, and a novel mechanism at the thigh interface (see next section). Using SolidWorks FEA, I optimized the strut structures to reduce mass by more than 35% while maintaining stiffness above safety margins. I also incorporated a modular thigh strut design with several sizes to ensure the exoskeleton fit users from the 1st to the 99th percentile, thereby accommodating stroke survivors who often experience weight changes due to immobility.
 
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0" style="max-width: 600px; margin: 0 auto;">
@@ -51,14 +51,14 @@ A review of prior work showed that soft, compliant interfaces can mitigate misal
     </div>
 </div>
 
-This mechanism contributed to reports of increased user comfort in our new exoskeleton. Working on this project taught me a key engineering lesson early in my research career: taking time to understand current limitations leads to more effective and creative design solutions than blindly iterating on inherited hardware. I recently gave a talk about my work on this mechanism at the Gulf Coast Undergraduate Research Symposium at Rice University.
+This mechanism contributed to reports of increased user comfort in our new exoskeleton. Working on this project taught me a key engineering lesson early in my research career: taking time to understand current limitations leads to more effective and creative design solutions than blindly iterating on inherited hardware. I presented this mechanism at the Gulf Coast Undergraduate Research Symposium at Rice University in October 2025 ([abstract](/assets/pdf/GCURS_2025_Abstract.pdf)).
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        <iframe src="https://drive.google.com/file/d/16Kq3pckW9unH6V8WWYQeoN7BbOgWl0dP/preview" style="width: 100%; height: 800px; border: none; border-radius: 8px; display: block;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+        <video src="{{ '/assets/video/web/old_thigh_interface.mp4' | relative_url }}" autoplay loop muted playsinline preload="auto" style="width: 100%; border-radius: 3px; display: block;"></video>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <iframe src="https://drive.google.com/file/d/1gN_tMzNtHG9KoXANFK5Q9ATU5VQWD_r9/preview" style="width: 100%; height: 800px; border: none; border-radius: 8px; display: block;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+        <video src="{{ '/assets/video/web/full_pmm_demo.mp4' | relative_url }}" autoplay loop muted playsinline preload="auto" style="width: 100%; border-radius: 3px; display: block;"></video>
     </div>
 </div>
 <div class="caption">
@@ -67,7 +67,7 @@ This mechanism contributed to reports of increased user comfort in our new exosk
 
 ## Rapid Prototyping & Composite Fabrication
 
-I fabricated functional prototypes using **SLS, SLA, and FDM additive manufacturing** to iterate on design concepts rapidly. I then manufactured final exoskeleton components using both **wet-laminated and prepreg carbon-fiber layups** to maximize strength-to-weight ratio. Through iterative mold design, I achieved consistent composite quality that meets structural requirements while minimizing weight.
+I fabricated functional prototypes using **SLS, SLA, and FDM additive manufacturing** to iterate on design concepts rapidly. I then manufactured final exoskeleton components using both **wet-laminated and prepreg carbon-fiber layups** to maximize strength-to-weight ratio. Through iterative mold design, I achieved consistent composite quality that met structural requirements while minimizing weight.
 
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0" style="max-width: 600px; margin: 0 auto;">
@@ -87,7 +87,7 @@ I conducted locomotion experiments using a comprehensive sensor suite including 
 
 ## Team Leadership
 
-I coordinate and mentor a team of undergraduate researchers across mechanical design, fabrication, data processing, and experimental workflows, ensuring the project's continued progress and knowledge transfer. 
+I coordinated and mentored a team of undergraduate researchers across mechanical design, fabrication, data processing, and experimental workflows, ensuring the project's continued progress and knowledge transfer. 
 
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0" style="max-width: 600px; margin: 0 auto;">

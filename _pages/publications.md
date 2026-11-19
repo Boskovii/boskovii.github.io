@@ -10,6 +10,12 @@ nav_order: 3
 
 <div class="publications">
 
-{% bibliography %}
+<h2 class="pub-section">papers</h2>
+
+{% bibliography --group_by none %}
+
+<h2 class="pub-section">presentations</h2>
+
+{% bibliography --file presentations --group_by none %}
 
 </div>

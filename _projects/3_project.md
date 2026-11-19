@@ -42,14 +42,14 @@ _styles: |
 ---
 
 **ME3017: System Dynamics**  
-*Instructor: Prof. Shreyas Kousik* | Jan 2025 – May 2025
+*Instructor: Prof. Shreyas Kousik* | Jan 2025 - May 2025
 
 As part of a team project, I developed a nonlinear dynamic model of the coupled hip-knee-ankle system to analyze how applied joint torques produce leg motion in the sagittal plane. The project involved deriving the governing equations for a double pendulum with torsional springs and dampers, parameterizing the model using anthropometric data, linearizing the system around equilibrium, and comparing nonlinear vs. linear predictions for real movement tasks.
 
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0" style="max-width: 650px; margin: 0 auto;">
         {% include figure.liquid loading="eager" path="assets/img/biomechanics_og.jpeg" 
-           caption="Two-link thigh–shank system used for dynamic modeling." 
+           caption="Two-link thigh-shank system used for dynamic modeling." 
            class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -85,9 +85,9 @@ J_S \ddot{\theta}_S = -k_S (\theta_S - \theta_T) - b_S (\dot{\theta}_S - \dot{\t
 
 To evaluate the system’s behavior, I designed torque inputs representing three different sagittal-plane actions:
 
-- **Karate front kick** – impulsive knee extension supported by stabilizing hip torque  
-- **Soccer ball strike** – coordinated ramped torques across both joints  
-- **Stationary cycling** – sinusoidal hip and knee torques over a 1-second cycle  
+- **Karate front kick** - impulsive knee extension supported by stabilizing hip torque  
+- **Soccer ball strike** - coordinated ramped torques across both joints  
+- **Stationary cycling** - sinusoidal hip and knee torques over a 1-second cycle  
 
 For each scenario, I simulated:
 

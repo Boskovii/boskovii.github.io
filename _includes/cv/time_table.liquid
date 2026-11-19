@@ -9,7 +9,7 @@
                 <tr>
                   <td>
                     <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 120px">
-                      {{- content.year -}}
+                      {{- content.year | replace: ' - ', ' –<br>' -}}
                     </span>
                   </td>
                 </tr>
@@ -91,7 +91,7 @@
                       <div style="font-weight: bold; margin-bottom: 0.25rem; font-family: inherit; font-style: normal;">{{ item.title }}</div>
                       <div style="font-weight: normal; font-style: normal; font-family: inherit;" class="no-math">{{ item.contents[0] }}</div>
                     {% else %}
-                      <span class="item no-math" style="font-family: inherit;">{{ item }}</span>
+                      <span class="item no-math" style="font-family: inherit; font-weight: bold;">{{ item.title | default: item }}</span>
                     {% endif %}
                   </div>
                 {% endfor %}

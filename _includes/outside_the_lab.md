@@ -1,0 +1,1 @@
+Outside the lab, I try to spend as much time outdoors as I can. This past summer, I thru-hiked 2,300 miles in 103 days along the Pacific Crest Trail northbound from Mexico, covering every section that wasn’t closed by wildfires. I've also started mountaineering, summiting Mt. Whitney and Mt. Fuji so far. When I'm not on a trail, I play piano and drums and shoot film photography.

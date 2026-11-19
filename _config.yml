@@ -9,7 +9,7 @@ last_name: Bošković
 contact_note: >
   The best way to reach me is via email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Aleksandar Bošković - Mechanical Engineering student at Georgia Tech researching Human–Robot Interaction, Wearable Robotics, and Medical Devices.
+  Aleksandar Bošković - Research Fellow at the Harvard Biodesign Lab developing wearable robots and exoskeletons for rehabilitation.
 footer_text:
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -262,8 +262,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Bošković, Boskovic]
+  first_name: [Aleksandar, A.]
 
   style: apa
   locale: en
@@ -322,7 +322,7 @@ filtered_bibtex_keywords:
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
+max_author_limit: 100 # effectively shows all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
@@ -439,7 +439,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+      fonts: "https://fonts.googleapis.com/css?family=Instrument+Sans:400,400i,500,600|Newsreader:400,400i,500,500i,600|Roboto:300,400,500,700|Material+Icons&display=swap"
   highlightjs:
     integrity:
       css:

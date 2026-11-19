@@ -8,7 +8,7 @@ category: course projects
 ---
 
 **ME2110: Creative Decisions and Design**  
-*Instructor: Ms. Nisha Detchprohm* | Jan 2024 – May 2024
+*Instructor: Ms. Nisha Detchprohm* | Jan 2024 - May 2024
 
 I designed, built, and programmed a fully autonomous robot capable of completing a Kung Fu Panda-themed competition challenge involving object retrieval, obstacle neutralization, and vertical lifting tasks. My work on the team focused on mechanical subsystem design, mechatronic sensing, rapid prototyping, and Arduino-based control integration.
 

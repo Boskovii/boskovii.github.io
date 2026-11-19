@@ -3,112 +3,54 @@
   contents:
     - name: Full Name
       value: Aleksandar Blaine Bošković
-    - name: Label
-      value: Wearable Robotics Researcher
+    - name: Role
+      value: Research Fellow in Bioengineering, Harvard Biodesign Lab
     - name: Location
-      value: Atlanta, GA
+      value: Boston, MA
     - name: Email
-      value: aboskovic3@gatech.edu
+      value: aleksandar_boskovic@seas.harvard.edu
     - name: Phone
       value: (339) 368-4217
 
-- title: Summary
+- title: Research Interests
   type: list
   contents:
-    - Undergraduate researcher studying mechanical engineering with experience in wearable robotics, human-robot interfaces, biomechanical testing, and experimental motion analysis. Skilled in designing mechanisms, building multimodal sensing pipelines, and conducting human-subject evaluations. Interested in advancing robotic systems that augment human motion. Motivated by problems at the intersection of human biomechanics and robotic design.
-
-- title: Research Experience
-  type: time_table
-  contents:
-    - title: Undergraduate Researcher
-      institution: Exoskeleton and Prosthetic Intelligent Controls Lab, Georgia Tech
-      year: Aug 2023 – Present
-      url: /projects/1_project/
-      description:
-        - Designed a passive 3-DOF planar mobility mechanism for a hip exoskeleton thigh interface
-        - Reduced structural mass by 35% via SolidWorks FEA optimization
-        - Built prototypes using SLS/SLA/FDM and carbon-fiber layups
-        - Collected multimodal locomotion datasets (VICON, EMG, IMUs, insole pressure, force plates)
-        - Performed clinical assessments (Fugl-Meyer) with stroke-impaired participants
-        - Mentored undergraduate researchers and coordinated team tasks
-    - title: Undergraduate Researcher
-      institution: Physiology of Wearable Robotics Lab, Georgia Tech
-      year: Aug 2024 – May 2025
-      url: /projects/2_project/
-      description:
-        - Designed a motor-driven robotic dynamometer for plantar-flexion work-loop experiments
-        - Selected motors and gearboxes through torque-speed modeling in MATLAB
-        - Fabricated aluminum and steel components using manual milling and waterjet machining
-        - Improved rigidity and measurement fidelity of an open-source plantar-flexion dynamometer
-
-- title: Work Experience
-  type: time_table
-  contents:
-    - title: Process Development Intern
-      institution: Boston Scientific
-      year: May 2025 – Aug 2025
-      description:
-        - Improved fidelity and speed of a laser ablation system by developing an empirically driven marking file, reducing cycle time by 64% and saving 2300+ annual machine hours
-        - Conducted root-cause analysis on heat-affected zones using SEM; collaborated across teams to increase process robustness
-        - Measured sputtered-ceramic thickness via XRF in multiple orientations; ran statistical analysis (t-tests) in Minitab to identify orientation-dependent variability
-    - title: Lab Supervising Grader
-      institution: "ME2110: Creative Decisions and Design, Georgia Tech"
-      year: Aug 2024 – May 2025
-      description:
-        - Supervised labs and coached students on design and construction of robotic systems
-        - Trained students in Arduino-based control and safe rapid-prototyping techniques (3D printing, laser cutting, etc.)
-
-- title: Other Experience
-  type: time_table
-  contents:
-    - title: Campus Relations & Events Committees
-      institution: Undergraduate Research Ambassadors, Georgia Tech
-      year: Jan 2025 – Present
-      description:
-        - Organized workshops with GT's Office of Undergraduate Education & Student Success to guide students through research opportunities, graduate school preparation, and fellowships
-        - Supported research programming by staffing research fairs, coordinating lab tours, and advising students during weekly office hours
-    - title: Prototyping Instructor
-      institution: Flowers Invention Studio, Georgia Tech
-      year: Jun 2024 – Present
-      description:
-        - Trained students and faculty on safe and effective use of shop tools and rapid prototyping equipment
-        - Supported fabrication across woodworking, metalworking, 3D printing, electronics, and laser cutting
-    - title: Undergraduate Volunteer
-      institution: Georgia Tech Robotics Summer Institute
-      year: Jul 2024
-      description:
-        - Helped high school students build autonomous robots and program Arduino-based systems
-        - Moderated a panel advising participants on college admissions and STEM pathways
-    - title: Driver Controls Team Member
-      institution: HyTech Racing
-      year: Aug 2022 – Dec 2023
-      description:
-        - Evaluated ergonomic control designs to reduce user error
-        - Designed lightweight harness-mount spacers and custom brake-fluid reservoir fittings; machined components on lathe and drill press; produced engineering drawings
+    - Human-Robot Interaction
+    - Wearable Robotics
+    - Haptics
 
 - title: Education
   type: time_table
   contents:
-    - title: Bachelor of Science in Mechanical Engineering
+    - title: Bachelor of Science in Mechanical Engineering (Highest Honors)
       institution: Georgia Institute of Technology, Atlanta, GA
-      year: Expected May 2026
+      year: May 2026
       description:
         - "Overall GPA: 4.00 / 4.00"
-        - "Thesis: <em>A Framework for Evaluating Physical Human–Robot Interface Design</em>, expected Spring 2026"
+        - "Thesis: <em>A Device-Agnostic Framework for Evaluating Physical Human-Robot Interface Design in Wearable Robotics</em>"
         - title: Relevant Coursework
           contents:
-            - "ME 4451 (Robotics)"
-            - "ME 4452 (Control of Dynamic Systems)"
-            - "ME 3017 (System Dynamics)"
-            - "ISYE 3770 (Statistics & Applications)"
-            - "CS 1332 (Data Structures & Algorithms)"
-            - "ME 3057 (Experimental Methods & Technical Writing)"
-            - "LMC 4701 (Undergraduate Research & Proposal Writing)"
+            - Robotics
+            - Machine Design
+            - System Dynamics
+            - Statistics & Applications
+            - Data Structures & Algorithms
+            - Experimental Methods & Technical Writing
+            - Creative Decisions & Design
+            - Undergraduate Research & Proposal Writing
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: Fall 2025
+    - year: Spring 2026
+      items:
+        - title: "National Science Foundation Graduate Research Fellowship Program (Declined)"
+          contents:
+            - "Awarded for the research plan <em>Adaptive Neck-Shoulder Exoskeleton for Reducing Surgeon Fatigue</em> (<a href='/assets/pdf/NSF_GRFP_Research_Plan.pdf' target='_blank'>PDF</a>).<span class='para-gap'></span><span class='cv-note'>Unfortunately, I had to decline the award because I was not enrolling in a PhD program in Fall 2026 and was not able to defer it. I chose to take a gap year to thru-hike the Pacific Crest Trail and complete a research fellowship at the Harvard Biodesign Lab to better define my research goals and interests before starting a PhD. Reapplied in October 2026.</span>"
+        - title: "George W. Woodruff School of Mechanical Engineering Outstanding Scholar Award"
+          contents:
+            - "Awarded to the graduating senior with the most exceptional scholastic record in the Woodruff School of Mechanical Engineering. Each year, roughly 70 mechanical engineering seniors graduate with a 4.00 GPA; this award goes to one of them. (<a href='https://news.gatech.edu/news/2026/04/23/student-excellence-celebrated-honors-event' target='_blank'>Georgia Tech News</a>)"
+    - year: Fall 2025 - Spring 2026
       items:
         - title: "Chair's Ambassadors in Leadership and Service Fellowship"
           contents:
@@ -118,49 +60,124 @@
         - title: "President's Undergraduate Research Award"
           contents:
             - "Awards of &#36;1,500 are offered each semester across all majors. Students are evaluated on a 2-part proposal consisting of a 2-page project description and a 1-page statement of mentor/mentee expectations. Funded full-time research in the EPIC Lab in Summer 2024."
-    - year: Fall 2022 – Spring 2025
+    - year: Fall 2022 - Spring 2026
       items:
-        - title: "Faculty Honors"
+        - title: "Faculty Honors (every semester)"
           contents:
-            - "Awarded every semester since Fall 2022 for maintaining an academic average of 4.00, completing a schedule of at least 12 hours of coursework on a letter-grade basis with no W grades, and not being on academic warning or probation or subject to any disciplinary action."
+            - "Awarded for maintaining an academic average of 4.00, completing a schedule of at least 12 hours of coursework on a letter-grade basis with no W grades, and not being on academic warning or probation or subject to any disciplinary action."
+
+- title: Publications
+  type: list
+  contents:
+    - "Mhaskar, Y., Park, D., <strong>Bošković, A.</strong>, Young, A. (June 2026). “Ergonomic Robotic Hip Exoskeleton Design with Integrated Second-Skin On-Body Sensing.” Under review at the <em>ASME Journal of Biomechanical Engineering</em>."
+    - "Iaschi, M., Lin, J., Wang, T., He, J., <strong>Bošković, A.</strong>, Dolfi, L., Chen, T. G., Goldman, D. I. (September 2026). “Many-Legged Morphology Enables Dynamic Robotic Climbing.” Under review at the <em>IEEE International Conference on Robotics and Automation (ICRA)</em>."
+    - "Alshareef, A., <strong>Bošković, A.</strong>, Houle, D., Kousik, S., Sawicki, G. (Expected December 2026). “Design and Validation of a Robotic Dynamometer to Measure Dynamic Human Work Loop and Force Control.” Manuscript in preparation."
 
 - title: Presentations
+  type: list
+  contents:
+    - "<strong>Bošković, A.</strong>, Mhaskar, Y., Young, A. (October 2025). “A Planar Mobility Mechanism for Secure and Comfortable Exoskeleton Thigh Interfaces.” Oral presentation at the <em>Gulf Coast Undergraduate Research Symposium (GCURS)</em>, Rice University. (<a href='/assets/pdf/GCURS_2025_Abstract.pdf' target='_blank'>Abstract PDF</a>)"
+
+- title: Research Experience
   type: time_table
   contents:
-    - title: A Planar Mobility Mechanism for Secure and Comfortable Exoskeleton Thigh Interfaces
-      institution: Gulf Coast Undergraduate Research Symposium (GCURS), Rice University
-      year: October 2025
+    - title: Research Fellow in Bioengineering
+      institution: Harvard Biodesign Lab, Boston, MA
+      year: Sep 2026 - Present
       description:
-        - Oral Presentation
-        - "Authors: Bošković, A., Mhaskar, Y., Young, A."
+        - Redesigned the control enclosure of a powered ankle exoskeleton to accommodate increased battery capacity and higher motor torque requirements for post-stroke users, supporting extended operation and deployment in home and community environments
+        - Developing auditory and vibrotactile biofeedback systems to promote increased paretic trailing limb angle during post-stroke walking, including hardware design and integration into the existing ROS 2 framework
+        - Exploring how biofeedback-guided gait training can be combined with human-in-the-loop optimization to improve personalization of exoskeleton assistance and walking outcomes relevant to community ambulation
+    - title: Undergraduate Team Lead
+      institution: Exoskeleton and Prosthetic Intelligent Controls (EPIC) Lab, Georgia Tech
+      year: Aug 2023 - May 2026
+      url: /projects/1_project/
+      description:
+        - Designed and manufactured a novel hip exoskeleton thigh interface with a passive 3-DOF planar mobility mechanism that mitigates skin irritation caused by misalignment between the hip joint and actuator axes
+        - Utilized SolidWorks FEA to improve structural design of thigh struts while reducing mass by over 35%
+        - Fabricated rapid prototypes using SLS/SLA/FDM 3D printing and manufactured final components using wet-laminated and prepreg carbon-fiber layups
+        - Collected kinematic datasets from able-bodied and stroke-impaired participants using VICON across cyclic and non-cyclic locomotor tasks
+        - Built multimodal motion-capture datasets (infrared markers, force plates, EMG, IMUs, insole pressure, gait mapping) and automated validation tools in MATLAB to rapidly flag gaps in data and erroneous trials
+        - Performed clinical evaluations of stroke participants using the Fugl-Meyer Assessment, enabling correlation of movement data with severity of impairment
+        - Coordinated a team of undergraduate researchers by mentoring new members, supporting development of teammates' technical and research skills, and facilitating communication with lab faculty
+    - title: Undergraduate Researcher
+      institution: Physiology of Wearable Robotics (PoWeR) Lab, Georgia Tech
+      year: Aug 2024 - May 2025
+      url: /projects/2_project/
+      description:
+        - Identified and corrected design flaws in an open-source ankle work-loop observation platform, increasing structural rigidity to better secure the force plate and isolate soleus muscle activity
+        - Designed a custom motor-driven dynamometer rig in Fusion 360 to replace a weight stack and enable testing under variable-speed and complex loading conditions
+        - Selected motor and gearbox components capable of safely exceeding human plantar-flexion torque across all speeds by generating torque-speed curves in MATLAB, thereby enabling isokinetic testing
+        - Fabricated aluminum brackets and structural bars using a waterjet and drill press; designed a reinforced motor mount for assembly via welding to reduce frame bending and inertial effects; machined steel hard-stop bars to prevent ankle overextension
+
+- title: Relevant Course Projects
+  type: time_table
+  contents:
+    - title: Dynamic Simulation of Hip-Knee Joint Mechanics
+      institution: "ME3017: System Dynamics"
+      year: Jan 2025 - May 2025
+      url: /projects/3_project/
+      description:
+        - Developed a double-pendulum model of the human hip and knee using torsional springs and dampers at each joint to model ligamentous stiffness, muscle damping, and gravitational effects on the thigh and shank
+        - Used anthropometric data from biomechanics literature to derive differential equations of motion and linearized them about equilibrium to analyze stability, frequency response, and transient behavior
+        - Simulated input torques representing a martial-arts kick, a soccer strike, and rehabilitative cycling, and compared nonlinear and linearized system responses using MATLAB
+    - title: Design and Control of an Autonomous Robot
+      institution: "ME2110: Creative Decisions and Design"
+      year: Jan 2024 - May 2024
+      url: /projects/4_project/
+      description:
+        - Programmed an autonomous robot's control system in Arduino, integrating IR/ultrasonic sensing with motor, solenoid, and pneumatic actuation to execute competition tasks
+        - Designed a low-profile scissor lift extending 4.5 feet from a collapsed height of 4 inches and machined a custom aluminum spool on a lathe to drive the lift cable
+        - Built a rapid-deploy obstacle-clearing mechanism using drawer slides and pneumatic actuation
+
+- title: Other Relevant Experience
+  type: time_table
+  contents:
+    - title: Process Development Intern
+      institution: Boston Scientific
+      year: May 2025 - Aug 2025
+      description:
+        - Enhanced fidelity and operation speed of a laser ablation system for feedthrough manufacturing by developing an empirically driven marking file, reducing cycle time by 64% and saving over 2300 machine hours (>3.3 months) annually
+        - Conducted root cause analysis on heat-affected zones using SEM and collaborated with cross-functional teams to enhance process robustness and scalability
+        - Measured sputter layer thickness using XRF in multiple orientations and performed statistical analysis in Minitab (t-test), confirming orientation-dependent variation and revealing a critical source of testing error
+    - title: Campus Relations & Events Committees
+      institution: Undergraduate Research Ambassadors, Georgia Tech
+      year: Jan 2025 - May 2026
+      description:
+        - Proposed, organized, and hosted workshops connecting students with GT's Office of Undergraduate Education & Student Success to demystify graduate/medical school pathways and competitive fellowships
+        - Supported campus research programming by staffing undergraduate research fairs, coordinating lab tours, and advising students during weekly office hours on identifying and contacting potential research mentors
+    - title: Lab Supervising Grader
+      institution: "ME2110: Creative Decisions and Design, Georgia Tech"
+      year: Aug 2024 - May 2025
+      description:
+        - Supervised lab sessions and coached students through the design, construction, and control of robotic devices for ME2110
+        - Trained students on Arduino-based control of mechatronic systems and ensured safe, effective use of laser cutters, 3D printers, and other rapid-prototyping tools during lab operations
+    - title: Undergraduate Volunteer
+      institution: Georgia Tech Robotics Summer Institute
+      year: Jul 2024
+      description:
+        - Guided high school students in building autonomous robots and programming Arduino-based control systems for a final team competition
+        - Moderated a student panel to advise participants on college admissions and STEM pathways
+    - title: Prototyping Instructor
+      institution: Flowers Invention Studio, Georgia Tech
+      year: Jun 2024 - May 2026
+      description:
+        - Trained students and faculty on safe and effective use of shop tools and rapid-prototyping equipment, supporting fabrication of course, research, and personal projects
+        - Instructed users in manufacturing methods such as woodworking, metalworking, 3D printing, electronics prototyping, and laser cutting
+    - title: Driver Controls Team
+      institution: HyTech Racing
+      year: Aug 2022 - Dec 2023
+      description:
+        - Evaluated ergonomic dashboard-control designs under varying driver conditions (glove types, control placement, device size) to improve usability and reduce risk of human error during competition
+        - Designed lightweight harness-mount spacers and custom brake-fluid reservoir fittings, machining components on a lathe and drill press and producing associated engineering drawings
 
 - title: Skills
   type: list
   contents:
     - "Programming: MATLAB, Arduino, Python, Java"
-    - "Design: SolidWorks, 3DExperience CATIA, Fusion 360, FEA, Engineering drawings"
-    - "Analysis: SEM, VHX microscopy, XRF, Minitab"
-    - "Manufacturing: 3D printing (FDM/SLA/SLS), Carbon-fiber layup, Laser cutting, Metal lathe, Waterjet, Femtosecond laser ablation"
-
-- title: Projects
-  type: time_table
-  contents:
-    - title: Dynamic Simulation of Hip–Knee Joint Mechanics
-      institution: "ME3017: System Dynamics"
-      year: Jan 2025 – May 2025
-      url: /projects/3_project/
-      description:
-        - Developed a double-pendulum model of human hip and knee dynamics using torsional springs and dampers to represent ligament stiffness, muscle damping, and gravity
-        - Used anthropometric data to derive nonlinear differential equations and linearized them about equilibrium to analyze stability, frequency response, and transient behavior
-        - Simulated torques corresponding to martial-arts kicks, soccer strikes, and rehabilitative cycling; compared nonlinear and linear system performance using MATLAB
-    - title: Design and Control of an Autonomous Robot
-      institution: "ME2110: Creative Decisions and Design"
-      year: Jan 2024 – May 2024
-      url: /projects/4_project/
-      description:
-        - Programmed an autonomous robot in Arduino integrating IR/ultrasonic sensors with motors, solenoids, and pneumatic actuation
-        - Designed a low-profile scissor lift extending 4.5 ft from a 4-in collapsed height; machined a custom aluminum spool on a lathe
-        - Built a rapid-deploy mechanism using drawer slides and pneumatic actuation to clear obstacles
+    - "Design: SolidWorks, 3DExperience CATIA, Fusion 360, Finite Element Analysis (FEA), Engineering Drawings"
+    - "Analysis: Scanning Electron Microscopy (SEM), VHX Digital Microscopy, XRF Analysis, Minitab"
+    - "Manufacturing: 3D Printing (FDM/SLA/SLS), Carbon-Fiber Layup, Laser Cutting, Metal Lathe, Waterjet, Femtosecond Laser Ablation"
 
 - title: Languages
   type: list

@@ -28,6 +28,15 @@ The afferent and efferent signal loops of the nervous system can't be measured d
 
 In target-matching tasks, a monitor in front of the participant displays a torque target, and their response can be analyzed like the response of any dynamic system, using control metrics such as **rise time**, **overshoot**, **settling time**, and **steady-state error**. Two independent torque measurements, an in-line torque transducer and a custom 2-D force plate in the foot pedal that measures both normal and shear forces, also capture **center of pressure and force direction**, opening the door to future studies of how people control where force is directed, not just how much they produce.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0" style="max-width: 360px; margin: 0 auto;">
+        <video src="{{ '/assets/video/web/dyno_force_tracking.mp4' | relative_url }}" autoplay loop muted playsinline preload="auto" style="width: 100%; border-radius: 3px; display: block;"></video>
+    </div>
+</div>
+<div class="caption">
+    Cyclic ankle task on the dynamometer, with real-time work-loop feedback on the monitor.
+</div>
+
 The controller supports isometric, isokinetic, position-controlled, and torque-controlled modes, an admittance-controlled simulated environment emulating a hanging mass, and rapid perturbations triggered by ankle kinematics. EMG, ultrasound imaging, and real-time visual and auditory biofeedback can be integrated into these tasks. These needs for torque fidelity, joint isolation, and controllable loading drove the design described below.
 
 ## Improving Open-Source Force Plate Design

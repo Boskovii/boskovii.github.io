@@ -70,14 +70,36 @@ layout: default
       {% capture outside_text %}{% include outside_the_lab.md %}{% endcapture %}
       {{ outside_text | markdownify }}
       <div class="outside-photos">
-        <figure>
-          <img src="{{ '/assets/img/personal/pct_film.jpg' | relative_url }}" alt="Hiking the Pacific Crest Trail in Southern California" loading="lazy">
-          <figcaption>On the Pacific Crest Trail, somewhere in Southern California</figcaption>
-        </figure>
-        <figure>
-          <img src="{{ '/assets/img/personal/whitney_summit.jpg' | relative_url }}" alt="View from the summit of Mt. Whitney" loading="lazy">
-          <figcaption>View from the summit of Mt. Whitney</figcaption>
-        </figure>
+        <div class="photo-row">
+          <figure style="--ar: 1.495">
+            <img src="{{ '/assets/img/personal/pct_southern_terminus.jpg' | relative_url }}" alt="At the Pacific Crest Trail southern terminus monument on the Mexican border" loading="lazy">
+            <figcaption>Southern terminus of the PCT at the Mexican border</figcaption>
+          </figure>
+          <figure style="--ar: 1.333">
+            <img src="{{ '/assets/img/personal/whitney_summit_group.jpg' | relative_url }}" alt="On the summit of Mt. Whitney with friends" loading="lazy">
+            <figcaption>On the summit of Mt. Whitney</figcaption>
+          </figure>
+        </div>
+        <div class="photo-row">
+          <figure style="--ar: 1.333">
+            <img src="{{ '/assets/img/personal/fuji_climb.jpg' | relative_url }}" alt="Climbing the snowy upper slopes of Mt. Fuji" loading="lazy">
+            <figcaption>Climbing Mt. Fuji</figcaption>
+          </figure>
+          <figure style="--ar: 1.333">
+            <img src="{{ '/assets/img/personal/desolation_wilderness.jpg' | relative_url }}" alt="Wildflower meadow overlooking a lake in Desolation Wilderness" loading="lazy">
+            <figcaption>Wildflowers in Desolation Wilderness</figcaption>
+          </figure>
+        </div>
+        <div class="photo-row">
+          <figure style="--ar: 1.333">
+            <img src="{{ '/assets/img/personal/goat_rocks.jpg' | relative_url }}" alt="Jagged peaks and alpine meadows in the Goat Rocks Wilderness" loading="lazy">
+            <figcaption>Goat Rocks Wilderness</figcaption>
+          </figure>
+          <figure style="--ar: 1.333">
+            <img src="{{ '/assets/img/personal/forester_pass.jpg' | relative_url }}" alt="Hiking down a snowfield below Forester Pass on the Pacific Crest Trail" loading="lazy">
+            <figcaption>Coming down from Forester Pass, the highest point on the PCT</figcaption>
+          </figure>
+        </div>
       </div>
     </div>
 

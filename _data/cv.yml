@@ -86,6 +86,7 @@
       year: Sep 2026 - Present
       description:
         - Redesigned the control enclosure of a powered ankle exoskeleton to accommodate increased battery capacity and higher motor torque requirements for post-stroke users, supporting extended operation and deployment in home and community environments
+        - Improved the durability of the exoskeleton's drivetrain with stronger replacement torque pins, a custom axial retention washer to keep the pins from vibrating out of place, and steel threaded inserts to stop fasteners from loosening during use
         - Developing auditory and vibrotactile biofeedback systems to promote increased paretic trailing limb angle during post-stroke walking, including hardware design and integration into the existing ROS 2 framework
         - Exploring how biofeedback-guided gait training can be combined with human-in-the-loop optimization to improve personalization of exoskeleton assistance and walking outcomes relevant to community ambulation
     - title: Undergraduate Team Lead

@@ -202,8 +202,9 @@ a {
   border-color: var(--global-theme-color) !important;
 }
 .projects .card-img-top {
-  aspect-ratio: 16 / 10;
-  object-fit: cover;
+  aspect-ratio: auto;
+  height: auto;
+  object-fit: contain;
 }
 .projects .card-title {
   font-size: 1.15rem;
@@ -492,7 +493,7 @@ html[data-theme="dark"] .cv .table-cv .badge {
 /* Homepage: outside the lab photos, equal heights side by side */
 .outside-photos {
   display: grid;
-  grid-template-columns: 1.5fr 1.78fr;
+  grid-template-columns: 1.495fr 1.333fr;
   gap: 0.75rem;
   margin-top: 1.25rem;
 }
@@ -564,3 +565,27 @@ html[data-theme="dark"] .cv .table-cv .badge {
 }
 .cv .cv-note { font-size: 1em; }
 .cv .para-gap { height: 0.5rem; }
+
+/* Outside the lab: wide landscape spans the full row under the two photos */
+.outside-photos figure.wide {
+  grid-column: 1 / -1;
+}
+
+/* Outside the lab: rows of photos at equal height (each figure grows by its aspect ratio) */
+.outside-photos {
+  display: block;
+}
+.outside-photos .photo-row {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+  align-items: flex-start;
+}
+.outside-photos .photo-row figure {
+  flex: var(--ar) 1 0;
+  min-width: 0;
+}
+@media (max-width: 576px) {
+  .outside-photos .photo-row { flex-direction: column; }
+  .outside-photos .photo-row figure { flex: none; width: 100%; }
+}

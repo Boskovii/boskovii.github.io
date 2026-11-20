@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- Metadata, OpenGraph and Schema.org -->
+
+
+
+
+<!-- Standard metadata -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>
+  
+  
+    
+      Robotic Ankle Exoskeleton | Alex Bošković
+    
+  
+</title>
+<meta name="author" content="Aleksandar B. Bošković">
+<meta name="description" content="Hardware reliability improvements and working toward home and community use of an ankle exoskeleton">
+
+  <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
+
+
+
+
+
+
+
+
+
+
+<!-- Bootstrap & MDB -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+
+
+<!-- Fonts & Icons -->
+<link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5">
+<link defer rel="stylesheet" href="/assets/css/scholar-icons.css?62b2ac103a88034e6882a5be5f3e2772">
+<link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Instrument+Sans:400,400i,500,600|Newsreader:400,400i,500,500i,600|Roboto:300,400,500,700|Material+Icons&amp;display=swap">
+
+<!-- Code Syntax Highlighting -->
+<link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light">
+
+
+
+<!-- Styles -->
+
+
+
+
+  <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
+
+<link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
+<link rel="canonical" href="https://boskovii.github.io/projects/0_project/">
+
+<!-- Dark Mode -->
+<script src="/assets/js/theme.js?532491449013108b8ebea1792d42f863"></script>
+
+  <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
+  <script>
+    initTheme();
+  </script>
+
+
+
+
+
+
+
+
+
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+    <!-- Header -->
+    <header>
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
+    <div class="container">
+      
+        <a class="navbar-brand title font-weight-lighter" href="/">
+          Alex Bošković
+        </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          
+
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">about
+              
+            </a>
+          </li>
+
+          <!-- Other pages -->
+          
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item active">
+                  <a class="nav-link" href="/projects/">projects
+                    
+                      <span class="sr-only">(current)</span>
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/publications/">publications
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/cv/">cv
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+          
+            <!-- Toogle theme mode -->
+            <li class="toggle-container">
+              <button id="light-toggle" title="Change theme">
+                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+              </button>
+            </li>
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <!-- Scrolling Progress Bar -->
+    <progress id="progress" value="0">
+      <div class="progress-container">
+        <span class="progress-bar"></span>
+      </div>
+    </progress>
+  
+</header>
+
+
+    <!-- Content -->
+    <div class="container mt-5" role="main">
+      
+        
+<style type="text/css">
+  .project-nav-link {
+    transition: opacity 0.2s ease;
+  }
+  .project-nav-link:hover {
+    opacity: 0.7;
+  }
+</style>
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">Robotic Ankle Exoskeleton</h1>
+    <p class="post-description">Hardware reliability improvements and working toward home and community use of an ankle exoskeleton</p>
+  </header>
+
+  <article>
+    <p><strong>Harvard Biodesign Lab</strong><br>
+<em>Principal Investigator: Prof. Conor Walsh</em> | Sep 2026 - Present</p>
+
+<p>As a Research Fellow in the Harvard Biodesign Lab, I am currently working on a portable ankle exoskeleton for post-stroke walking. Since joining the lab, I have been supporting ongoing human-subject experiments and have taken on several hardware projects that make the exoskeleton more reliable during testing. More recently, I’ve started leading the lab’s effort to move the device from supervised laboratory experiments toward use at home and in the community.</p>
+
+<div class="row">
+    <div class="col-sm-8 mt-3 mt-md-0" style="max-width: 600px; margin: 0 auto;">
+        
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+        <source class="responsive-img-srcset" srcset="/assets/img/harvard/ankle_exo_actuator-480.webp 480w,/assets/img/harvard/ankle_exo_actuator-800.webp 800w,/assets/img/harvard/ankle_exo_actuator-1400.webp 1400w," type="image/webp" sizes="95vw"></source>
+      
+    
+    <img src="/assets/img/harvard/ankle_exo_actuator.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+    <figcaption class="caption">Ankle exoskeleton actuator mounted on an ankle-foot orthosis.</figcaption>
+  
+</figure>
+
+    </div>
+</div>
+
+<hr>
+
+<h2 id="human-subject-experiments">Human-Subject Experiments</h2>
+
+<p>I collaborate with graduate students and physical therapists to assist with participant study visits. My work includes placing motion-capture markers on participants, calibrating the <strong>COSMED K5</strong> portable metabolic system, and collecting and labeling <strong>Qualisys</strong> motion-capture data.</p>
+
+<div class="row">
+    <div class="col-sm-8 mt-3 mt-md-0" style="max-width: 600px; margin: 0 auto;">
+        
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+        <source class="responsive-img-srcset" srcset="/assets/img/harvard/mocap_station-480.webp 480w,/assets/img/harvard/mocap_station-800.webp 800w,/assets/img/harvard/mocap_station-1400.webp 1400w," type="image/webp" sizes="95vw"></source>
+      
+    
+    <img src="/assets/img/harvard/mocap_station.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+    <figcaption class="caption">Motion-capture data collection station in Qualisys Track Manager.</figcaption>
+  
+</figure>
+
+    </div>
+</div>
+
+<h2 id="control-box-redesign">Control Box Redesign</h2>
+
+<p>Our exoskeleton required increased battery capacity and a soft power board that could support higher motor torque, and the existing control box had room for neither. I designed and prototyped a new control box assembly that houses both, with mounts for two swappable battery packs on the waist belt.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+        <source class="responsive-img-srcset" srcset="/assets/img/harvard/control_box_exploded-480.webp 480w,/assets/img/harvard/control_box_exploded-800.webp 800w,/assets/img/harvard/control_box_exploded-1400.webp 1400w," type="image/webp" sizes="95vw"></source>
+      
+    
+    <img src="/assets/img/harvard/control_box_exploded.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+    <figcaption class="caption">Exploded view of the control box assembly.</figcaption>
+  
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+        <source class="responsive-img-srcset" srcset="/assets/img/harvard/control_box_photo-480.webp 480w,/assets/img/harvard/control_box_photo-800.webp 800w,/assets/img/harvard/control_box_photo-1400.webp 1400w," type="image/webp" sizes="95vw"></source>
+      
+    
+    <img src="/assets/img/harvard/control_box_photo.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+    <figcaption class="caption">Prototype control box with dual battery mounts.</figcaption>
+  
+</figure>
+
+    </div>
+</div>
+
+<h2 id="connector-retention">Connector Retention</h2>
+
+<p>Actuator connectors were sometimes pulled loose while the exoskeleton was running, which interrupted assistance mid-trial. I developed an elastic retention mechanism that keeps the connectors seated during operation.</p>
+
+<div class="row">
+    <div class="col-sm-8 mt-3 mt-md-0" style="max-width: 600px; margin: 0 auto;">
+        
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+        <source class="responsive-img-srcset" srcset="/assets/img/harvard/connector_retention-480.webp 480w,/assets/img/harvard/connector_retention-800.webp 800w,/assets/img/harvard/connector_retention-1400.webp 1400w," type="image/webp" sizes="95vw"></source>
+      
+    
+    <img src="/assets/img/harvard/connector_retention.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+    <figcaption class="caption">Elastic retention holding the actuator connector seated in the control box.</figcaption>
+  
+</figure>
+
+    </div>
+</div>
+
+<h2 id="reinforced-ankle-foot-orthosis">Reinforced Ankle-Foot Orthosis</h2>
+
+<p>For a larger participant, the ankle-foot orthosis flexed more than it should under the exoskeleton’s assistive torque. I designed and fabricated aluminum reinforcement plates that fasten to the orthosis shell to improve its structural rigidity.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+        <source class="responsive-img-srcset" srcset="/assets/img/harvard/afo_plate_front-480.webp 480w,/assets/img/harvard/afo_plate_front-800.webp 800w,/assets/img/harvard/afo_plate_front-1400.webp 1400w," type="image/webp" sizes="95vw"></source>
+      
+    
+    <img src="/assets/img/harvard/afo_plate_front.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+    <figcaption class="caption">Aluminum reinforcement plate fastened to the orthosis shell.</figcaption>
+  
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+        <source class="responsive-img-srcset" srcset="/assets/img/harvard/afo_plate_side-480.webp 480w,/assets/img/harvard/afo_plate_side-800.webp 800w,/assets/img/harvard/afo_plate_side-1400.webp 1400w," type="image/webp" sizes="95vw"></source>
+      
+    
+    <img src="/assets/img/harvard/afo_plate_side.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+    <figcaption class="caption">Side view of the reinforced ankle-foot orthosis.</figcaption>
+  
+</figure>
+
+    </div>
+</div>
+
+<h2 id="torque-pin-failure-analysis">Torque-Pin Failure Analysis</h2>
+
+<p>After mechanical malfunctions during participant visits, I investigated the pin mechanism that transmits torque from the actuator to the orthosis. I identified likely failure modes involving <strong>pin engagement</strong>, <strong>wear</strong>, and <strong>insufficient axial constraint</strong>. Working with the machine shop, I implemented three fixes:</p>
+
+<ul>
+  <li>
+<strong>stronger replacement torque pins</strong>,</li>
+  <li>
+<strong>a custom axial retention washer</strong> to keep the pins from vibrating out of place, and</li>
+  <li>
+<strong>steel threaded inserts</strong> to stop fasteners from loosening during use.</li>
+</ul>
+
+<div class="row">
+    <div class="col-sm-8 mt-3 mt-md-0" style="max-width: 420px; margin: 0 auto;">
+        
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+        <source class="responsive-img-srcset" srcset="/assets/img/harvard/torque_pin_wear-480.webp 480w,/assets/img/harvard/torque_pin_wear-800.webp 800w,/assets/img/harvard/torque_pin_wear-1400.webp 1400w," type="image/webp" sizes="95vw"></source>
+      
+    
+    <img src="/assets/img/harvard/torque_pin_wear.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+    <figcaption class="caption">Wear around the torque-pin holes of the actuator output, found while investigating malfunctions during participant visits.</figcaption>
+  
+</figure>
+
+    </div>
+</div>
+
+<p>All four hardware modifications on this page are now in use in participant studies. Since they were implemented, study visits have run without any cancellations due to hardware issues.</p>
+
+<h2 id="toward-home-and-community-use">Toward Home and Community Use</h2>
+
+<p>I’m now helping lead the transition of our ankle exoskeleton from supervised laboratory experiments to home and community use. I began by consulting senior lab members with relevant experience and used those discussions to create a system-level roadmap outlining a phased development and validation strategy. I’m now working with other lab members to refine technical requirements, identify promising design solutions, and plan initial prototyping and feasibility testing.</p>
+
+<h2 id="technology-venture-immersion">Technology Venture Immersion</h2>
+
+<p>Outside my research, I’m helping prepare the January <strong>Technology Venture Immersion</strong> course as a Teaching Fellow. So far, I have organized a bill-of-materials framework for student projects and am coordinating with teaching staff to identify and source the components students will need.</p>
+
+  </article>
+
+  
+
+  
+
+  
+  
+  
+  
+    
+      
+      
+      
+
+  
+    
+    
+    
+    
+    
+    
+    
+    
+      
+        
+        
+      
+    
+      
+    
+      
+        
+        
+      
+    
+      
+    
+      
+        
+        
+      
+    
+      
+        
+        
+      
+    
+      
+        
+          
+          
+
+    <div class="project-navigation" style="display: flex; justify-content: space-between; align-items: center; margin-top: 3rem; padding-top: 2rem; border-top: 1px solid rgba(255, 255, 255, 0.1);">
+      
+        <a href="/projects/10_project/" class="project-nav-link" style="display: flex; align-items: center; text-decoration: none; color: inherit;">
+          <i class="fa-solid fa-arrow-left" style="margin-right: 0.5rem;"></i>
+          <span>Previous Project</span>
+        </a>
+      
+      
+      
+        <a href="/projects/3_project/" class="project-nav-link" style="display: flex; align-items: center; text-decoration: none; color: inherit;">
+          <span>Next Project</span>
+          <i class="fa-solid fa-arrow-right" style="margin-left: 0.5rem;"></i>
+        </a>
+      
+    </div>
+  
+</div>
+
+      
+    </div>
+
+    <!-- Footer -->
+    
+
+
+  <footer class="fixed-bottom" role="contentinfo">
+    <div class="container mt-0">
+      
+  © Copyright 2026 Aleksandar Bošković.
+  
+  
+
+    </div>
+  </footer>
+
+
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- Bootsrap & MDB scripts -->
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+
+  <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/masonry.js?a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
+
+
+
+
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script>
+<script defer src="/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script>
+<script defer src="/assets/js/copy_code.js?c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script>
+
+<!-- Jupyter Open External Links New Tab -->
+<script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script>
+
+<!-- Badges -->
+
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+
+
+
+  <!-- MathJax -->
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script>
+  
+    <script src="/assets/js/mathjax-setup.js?1771556632f79b20a94c2c5eeeb4c074"></script>
+    <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+  <!-- Scrolling Progress Bar -->
+  <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script>
+
+
+
+
+
+
+
+  <!-- Back to Top -->
+  <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script>
+  <script>
+    addBackToTop();
+  </script>
+
+
+
+
+
+
+<!-- Open links in new tabs -->
+<script src="/assets/js/new-tab-links.js"></script>
+<script src="/assets/js/reveal.js"></script>
+
+  </body>
+</html>

@@ -437,7 +437,12 @@ ninja.data = [{
           section: "News",},{id: "news-submitted-an-application-to-the-dod-national-defense-science-and-engineering-graduate-ndseg-fellowship-with-the-proposal-adaptive-shoulder-exoskeleton-control-for-precision-critical-maintenance-tasks-pdf",
           title: 'Submitted an application to the DoD National Defense Science and Engineering Graduate (NDSEG)...',
           description: "",
-          section: "News",},{id: "projects-interface-design-evaluation-framework",
+          section: "News",},{id: "projects-robotic-ankle-exoskeleton",
+          title: 'Robotic Ankle Exoskeleton',
+          description: "Hardware reliability improvements and working toward home and community use of an ankle exoskeleton",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/0_project/";
+            },},{id: "projects-interface-design-evaluation-framework",
           title: 'Interface Design Evaluation Framework',
           description: "A device-agnostic framework for evaluating physical human-robot interface design in wearable robotics",
           section: "Projects",handler: () => {
